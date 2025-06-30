@@ -2,10 +2,10 @@
 import { MongoClient,ObjectId } from 'mongodb'
 import { ApolloServer } from '@apollo/server';
 import { startStandaloneServer } from '@apollo/server/standalone';
-import { typeDefs } from "./typeDefs.ts";
+
 import { validarTelefono } from "./resolvers.ts";
 import { Usuario } from "./types.ts";
-import { isDataView } from "node:util/types";
+
 
 
 
